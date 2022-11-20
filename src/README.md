@@ -28,7 +28,7 @@ The files in this directory are based on [S. Harase and T. Kimoto's implementati
 ### `SUBROUTINE`&ensp;&colon;&ensp;`melg64%genrand64_int64(harvest)`
 
 - Objective
-  - Generate a random number on [-2^63, 2^63-1]-interval
+  - Generate a random number on [-2<sup>63</sup>, 2<sup>63</sup>-1]-interval
 - Argument
   - `harvest`
     - Type&colon;&ensp;`integer(kind=INT64)`
@@ -38,7 +38,7 @@ The files in this directory are based on [S. Harase and T. Kimoto's implementati
 ### `SUBROUTINE`&ensp;&colon;&ensp;`melg64%genrand64_int64_non_negative(harvest)`
 
 - Objective
-  - Generate a random number on [0, 2^63-1]-interval
+  - Generate a random number on [0, 2<sup>63</sup>-1]-interval
 - Argument
   - `harvest`
     - Type&colon;&ensp;`integer(kind=INT64)`
