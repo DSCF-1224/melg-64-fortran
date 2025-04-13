@@ -11,7 +11,7 @@ The following contents were originally present in the original [`README`](https:
 
 The 64-bit **M**aximally **E**quidistributed **F**<sub>2</sub>-**L**inear **G**enerators with Mersenne Prime Period (**MELG-64**) are 64-bit Mersenne-Twister-type pseudorandom number generators developed between 2014 and 2017, and the corresponding paper was published on ACM TOMS in 2018.
 
-> S. Harase and T. Kimoto, "Implementing 64-bit maximally equidistributed **F**<sub>2</sub>-linear generators with Mersenne prime period", ACM Transactions on Mathematical Software, Volume 44, Issue 3, April 2018, Article No. 30, 11 pp. <a href="http://doi.acm.org/10.1145/3159444">Artcle</a>
+> S. Harase and T. Kimoto, "Implementing 64-bit maximally equidistributed **F**<sub>2</sub>-linear generators with Mersenne prime period", ACM Transactions on Mathematical Software, Volume 44, Issue 3, April 2018, Article No. 30, 11 pp. <a href="http://doi.acm.org/10.1145/3159444">Article</a>
 
 ## Background
 CPUs and operating systems are moving from 32 to 64 bits, and hence it is important to have good 64-bit pseudorandom number generators (PRNGs) designed to fully exploit these word lengths. 
@@ -126,7 +126,7 @@ This criterion implies that the PRNG avoids a long-lasting impact for poor initi
 
 For more information, please see the presentation slides <a href="https://www.slideshare.net/ShinHarase/implementing-64bit-maximally-equidistributed-f2linear-generators-with-mersenne-prime-period">here</a>.
 
-- S. Harase and T. Kimoto, "Implementing 64-bit maximally equidistributed **F**<sub>2</sub>-linear generators with Mersenne prime period", ACM Transactions on Mathematical Software, Volume 44, Issue 3, April 2018, Article No. 30, 11 Pages. <a href="http://doi.acm.org/10.1145/3159444">Artcle</a>
+- S. Harase and T. Kimoto, "Implementing 64-bit maximally equidistributed **F**<sub>2</sub>-linear generators with Mersenne prime period", ACM Transactions on Mathematical Software, Volume 44, Issue 3, April 2018, Article No. 30, 11 Pages. <a href="http://doi.acm.org/10.1145/3159444">Article</a>
 - S. Harase, "Conversion of Mersenne Twister to double-precision floating-point numbers", Mathematics and Computers in Simulation, Volume 161, July 2019, Pages 76-83. <a href="https://doi.org/10.1016/j.matcom.2018.08.006"> Article</a>
 
 日本語の発表スライドも<a href="https://www.slideshare.net/ShinHarase/64-243960243">こちら</a>に公開しました。Youtubeの<a href="https://youtu.be/x9MWym2MV6o">解説動画</a>も作成しました。
